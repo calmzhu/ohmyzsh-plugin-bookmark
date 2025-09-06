@@ -6,17 +6,13 @@
 
 Yet another ohmyzsh plugin to quick jump between cmdline directories.
 
-And the design concern is very simple 
+And the design concern is very simple and intuitive.
 
     Add path to bookmarks, return an ordered number.
     and use the numbers to switch between dirs finally.
 
-There are also lots of powerfull [FS Jumping](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview#fs-jumping) plugins if this is too simple for your case.
-But if you also prefer simple and intuitive solution. this plugin can also be a good alternative.
-
-
 ## Install
-1. Ensure both sed are already installed in you cmdline PATH.
+1. Ensure sed is already installed in you cmdline PATH,both GNU and BSD version sed are supported.
 1. Ensure [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) already installed.
 1. Install plugin to ohmyzsh customer plugin dir.
     ```zsh
